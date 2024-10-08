@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Library</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -8,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\1.5 - Infrastructure\1.5.2 - Cross Cutting\OperationResult\TaskManager.Extensions.csproj" />
+    <ProjectReference Include="..\TaskManager.Contracts.ServiceLibrary\TaskManager.Contracts.ServiceLibrary.csproj" />
   </ItemGroup>
 
 </Project>

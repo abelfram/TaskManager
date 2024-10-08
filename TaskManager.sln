@@ -19,25 +19,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5 - Infrastructure", "1.5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Database", "2 - Database", "{38A1ECE6-FE98-4604-8D9C-5E6064C23818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.WebApi", "1.2 - Distributed Services\TaskManager.WebApi\TaskManager.WebApi.csproj", "{8FE64D27-E753-4B06-88B4-86CEF217DBB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.WebApi", "1.2 - Distributed Services\TaskManager.WebApi\TaskManager.WebApi.csproj", "{8FE64D27-E753-4B06-88B4-86CEF217DBB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Contracts.ExternalServices", "1.3 - Application\TaskManager.Contracts.ExternalServices\TaskManager.Contracts.ExternalServices.csproj", "{09A5DE85-A849-496B-AE96-667647B8081F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Contracts.ExternalServices", "1.3 - Application\TaskManager.Contracts.ExternalServices\TaskManager.Contracts.ExternalServices.csproj", "{09A5DE85-A849-496B-AE96-667647B8081F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Contracts.ServiceLibrary", "1.3 - Application\TaskManager.Contracts.ServiceLibrary\TaskManager.Contracts.ServiceLibrary.csproj", "{487B287A-9BC4-4C01-86BF-100BBDED7108}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Impl.ExternalServices", "1.3 - Application\TaskManager.Impl.ExternalServices\TaskManager.Impl.ExternalServices.csproj", "{8C789683-BE8F-4B57-9DAF-D6852E2ADB7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Impl.ExternalServices", "1.3 - Application\TaskManager.Impl.ExternalServices\TaskManager.Impl.ExternalServices.csproj", "{8C789683-BE8F-4B57-9DAF-D6852E2ADB7A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Impl.ServicesLibrary", "1.3 - Application\TaskManager.Impl.ServicesLibrary\TaskManager.Impl.ServicesLibrary.csproj", "{590DA5B8-ADFD-4DC7-8714-2068706A49BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Impl.ServiceLibrary", "1.3 - Application\TaskManager.Impl.ServicesLibrary\TaskManager.Impl.ServiceLibrary.csproj", "{590DA5B8-ADFD-4DC7-8714-2068706A49BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4.1 - Core", "1.4.1 - Core", "{6F78CF6C-942F-45CF-B184-D86B985AA427}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4.2 - MainModule", "1.4.2 - MainModule", "{053CE568-6D2E-48C4-9AE6-1F81DA14C7B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Library", "1.4 - Domain\1.4.2 - MainModule\TaskManager.Library\TaskManager.Library.csproj", "{E2E18ACF-5867-424A-92D9-41C114AE6A3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Library", "1.4 - Domain\1.4.2 - MainModule\TaskManager.Library\TaskManager.Library.csproj", "{E2E18ACF-5867-424A-92D9-41C114AE6A3B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5.1 - Data", "1.5.1 - Data", "{CFDF2627-BC6F-4992-8B1F-4D4827826FE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5.2 - Cross Cutting", "1.5.2 - Cross Cutting", "{C420CCC1-5EDC-440D-B95A-DCE333E9EDC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager.Contracts.ServiceLibrary", "1.3 - Application\TaskManager.Contracts.ServiceLibrary\TaskManager.Contracts.ServiceLibrary.csproj", "{CEA0FC6F-2944-42D3-BDA8-C05419BF7D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager.Extensions", "1.5 - Infrastructure\1.5.2 - Cross Cutting\OperationResult\TaskManager.Extensions.csproj", "{2552862E-8A86-4D0D-86F5-ADB494391631}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +55,6 @@ Global
 		{09A5DE85-A849-496B-AE96-667647B8081F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09A5DE85-A849-496B-AE96-667647B8081F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09A5DE85-A849-496B-AE96-667647B8081F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{487B287A-9BC4-4C01-86BF-100BBDED7108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{487B287A-9BC4-4C01-86BF-100BBDED7108}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{487B287A-9BC4-4C01-86BF-100BBDED7108}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{487B287A-9BC4-4C01-86BF-100BBDED7108}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8C789683-BE8F-4B57-9DAF-D6852E2ADB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C789683-BE8F-4B57-9DAF-D6852E2ADB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C789683-BE8F-4B57-9DAF-D6852E2ADB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +67,14 @@ Global
 		{E2E18ACF-5867-424A-92D9-41C114AE6A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2E18ACF-5867-424A-92D9-41C114AE6A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2E18ACF-5867-424A-92D9-41C114AE6A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA0FC6F-2944-42D3-BDA8-C05419BF7D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA0FC6F-2944-42D3-BDA8-C05419BF7D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA0FC6F-2944-42D3-BDA8-C05419BF7D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA0FC6F-2944-42D3-BDA8-C05419BF7D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2552862E-8A86-4D0D-86F5-ADB494391631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2552862E-8A86-4D0D-86F5-ADB494391631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2552862E-8A86-4D0D-86F5-ADB494391631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2552862E-8A86-4D0D-86F5-ADB494391631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,7 +87,6 @@ Global
 		{3A272B30-7FF0-41C5-9C13-1AF2364FC60D} = {E9442497-0756-4768-89AC-A5D1A0473449}
 		{8FE64D27-E753-4B06-88B4-86CEF217DBB1} = {4543DBD4-983E-4D05-B57C-BA1F5E9C7DEA}
 		{09A5DE85-A849-496B-AE96-667647B8081F} = {07E850A5-AC7E-461D-8D5D-96808FAE52D5}
-		{487B287A-9BC4-4C01-86BF-100BBDED7108} = {07E850A5-AC7E-461D-8D5D-96808FAE52D5}
 		{8C789683-BE8F-4B57-9DAF-D6852E2ADB7A} = {07E850A5-AC7E-461D-8D5D-96808FAE52D5}
 		{590DA5B8-ADFD-4DC7-8714-2068706A49BE} = {07E850A5-AC7E-461D-8D5D-96808FAE52D5}
 		{6F78CF6C-942F-45CF-B184-D86B985AA427} = {4B8CE2AB-EAC8-471F-8F1C-8CB48FB8541D}
@@ -89,6 +94,8 @@ Global
 		{E2E18ACF-5867-424A-92D9-41C114AE6A3B} = {053CE568-6D2E-48C4-9AE6-1F81DA14C7B8}
 		{CFDF2627-BC6F-4992-8B1F-4D4827826FE8} = {3A272B30-7FF0-41C5-9C13-1AF2364FC60D}
 		{C420CCC1-5EDC-440D-B95A-DCE333E9EDC6} = {3A272B30-7FF0-41C5-9C13-1AF2364FC60D}
+		{CEA0FC6F-2944-42D3-BDA8-C05419BF7D92} = {07E850A5-AC7E-461D-8D5D-96808FAE52D5}
+		{2552862E-8A86-4D0D-86F5-ADB494391631} = {C420CCC1-5EDC-440D-B95A-DCE333E9EDC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44F82E80-66B6-4F0C-A53E-98FA29BF410A}
